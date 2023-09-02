@@ -6,4 +6,4 @@ export const UserInput = z.object({
 })
 
 
-export type userInputType = z.infer<typeof UserInput>
+export type UserInputType = z.infer<typeof UserInput>
